@@ -16,6 +16,7 @@
   ],
   "author": "",
   "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/AngelicaArroyave/ECMAScript/issues"
   },
