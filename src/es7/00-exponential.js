@@ -1,0 +1,3 @@
+// Para trabajar con potencias
+const data = 3 ** 4
+console.log(data); // 81
