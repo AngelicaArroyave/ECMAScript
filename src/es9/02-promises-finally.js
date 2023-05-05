@@ -1,0 +1,15 @@
+// Promises o Promesas con finally
+const anotherFunction = () => {
+    return new Promise((resolve, reject) => {
+        if (true) {
+            resolve('Hey!')
+        } else {
+            reject('Ops!')
+        }
+    })
+}
+
+anotherFunction()
+    .then(response => console.log(response))
+    .catch(err => console.log(err))
+    .finally(() => console.log('Finally!')) // Finally!
