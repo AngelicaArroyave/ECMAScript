@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/AngelicaArroyave/ECMAScript/issues"
   },
-  "homepage": "https://github.com/AngelicaArroyave/ECMAScript#readme"
+  "homepage": "https://github.com/AngelicaArroyave/ECMAScript#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }
